@@ -1,7 +1,5 @@
-// Array of marks
 let marks = [45, 67, 89, 23, 99, 76];
 
-// ----------------- Using FOR loop -----------------
 function findMaxFor(marks) {
   let max = marks[0];
   for (let i = 1; i < marks.length; i++) {
@@ -12,7 +10,6 @@ function findMaxFor(marks) {
   return max;
 }
 
-// ----------------- Using WHILE loop -----------------
 function findMaxWhile(marks) {
   let i = 0;
   let max = marks[0];
@@ -25,7 +22,6 @@ function findMaxWhile(marks) {
   return max;
 }
 
-// ----------------- Using forEach loop -----------------
 function findMaxForEach(marks) {
   let max = marks[0];
   marks.forEach(function(mark) {
